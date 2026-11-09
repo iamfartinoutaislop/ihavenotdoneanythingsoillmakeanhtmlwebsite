@@ -1,0 +1,30 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.grid {
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    z-index: -1000;
+    margin-top: 12vw;
+}
+
+.cell {
+    /* background-color: red; */
+    height: 150px;
+
+}
+
+img {
+    max-width: 300px;
+    max-height: 250px;
+    align-self: center;
+}
